@@ -2,15 +2,15 @@
 # numbers.sh
 # Paul Zhao
 echo "Please enter a positive number: "
-read -r NUM
-x=1
-while [ "$x" -le "$NUM" ]
+read -r x
+n=1
+while [ "$n" -le "$x" ]
 do
-	if [ $((x%2)) -eq 0 ]
+	if [ $((n%2)) -eq 0 ]
 	then
-		echo "$x even"
+		echo "$n even"
 	else
-		echo "$x odd"
+		echo "$n odd"
 	fi
-	x=$((x+1))
+	n=$((n+1))
 done
