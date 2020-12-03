@@ -1,14 +1,16 @@
 #1 /bin/bash
 # numbers.sh
 # Paul Zhao
-echo "Please enter a positive integer:"
-read number
-for (( i = 1; i <= $number; i++ ))
+echo "Please enter a positive number: "
+read -r NUM
+x=1
+while [ "$x" -le "$NUM" ]
 do
-	if [ $((i%2)) -eq 0 ]
+	if [ $((x%2)) -eq 0 ]
 	then
-		echo "$i is Even"
+		echo "$x even"
 	else
-		echo "$i is Odd"
+		echo "$x odd"
 	fi
+	x=$((x+1))
 done
