@@ -1,4 +1,4 @@
-#1 /bin/bash
+#! /bin/bash
 # numbers.sh
 # Paul Zhao
 echo "Please enter a positive number: "
