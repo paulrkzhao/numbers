@@ -1,8 +1,8 @@
 ## Identifying Information: 
-1. Name: 
-2. Student ID: 
-3. Email: 
-4. Class: 
+1. Name: Paul Zhao
+2. Student ID: 2369076
+3. Email: pazhao@chapman.edu
+4. Class: cpsc298
 5. Assignment: numbers 
 
 ## Application Purpose
